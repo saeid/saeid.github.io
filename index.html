@@ -1,2 +1,78 @@
-<h1>Hello world!</h1>
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {
+        background-color: #1F2022;
+      }
+      .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .btn {
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+      }
+      .name {
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+        font-family: 'Alegreya', serif;
+      }
+      .subtext {
+        margin-top: 5px;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Alegreya', serif;
+      }
+      .line {
+        width: 50%;
+        height: 1px;
+        background-color: white;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div class="name">
+        <hr class="line">
+        <h1 style="margin-top: 0; margin-bottom: 5px;">Saeid Basirnia</h1>
+        <p class="subtext">Software engineer</p>
+        <hr class="line">
+      </div>
+      <div class="btns">
+        <a class="btn" href="https://github.com/saeid" target="_blank">
+          <i class="fa fa-github"></i>
+        </a>
+        <a class="btn" href="https://linkedin.com/in/saeidbsn" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
